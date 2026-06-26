@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: resolve-robotics-uri-py
-  version: "0.4.1"
+  version: "0.5.0"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/${{ name | replace('-', '_') }}-${{ version }}.tar.gz
-  sha256: 7010a9fdab10e059a61695dd565da9739d4d8aa92319bb24210e750c689e6663
+  sha256: 208e2af69928a6005e261fc6e04df9894fdc916585f96dbd061f3d45b5940378
 
 build:
   number: 0
